@@ -59,3 +59,6 @@ async def predict(image_url: str = Query(..., description="URL of the image to b
 @app.get("/")
 async def test():
     return "Server is running"
+
+if __name__ == "__main__":
+    uvicorn.run(app, host="0.0.0.0", port=5000)
