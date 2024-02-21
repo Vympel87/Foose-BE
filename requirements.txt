@@ -1,0 +1,7 @@
+numpy == 1.26.4
+fastapi == 0.109.0
+keras-ocr == 0.9.3
+tensorflow == 2.15.0
+pillow == 10.2.0
+requests == 2.31.0
+openfoodfacts == 0.1.12
